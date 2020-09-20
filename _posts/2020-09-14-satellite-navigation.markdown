@@ -31,7 +31,7 @@ $$
 
 where $$(x_i, y_i, z_i)$$ is the coordinates of i-th satellite, and $$d_i$$ is the distance to it.
 
-![Spheres](/assets/images/GPS-Trilateration2.png)
+![Spheres](/assets/images/gps-navigation-systems-spheres.png)
 
 The geometric interpretation of this system is as follows. Message from one satellite allocates a part of which you are a sphere defined by its center-satellite and radius.
 
