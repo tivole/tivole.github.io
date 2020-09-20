@@ -31,6 +31,8 @@ $$
 
 where $$(x_i, y_i, z_i)$$ is the coordinates of i-th satellite, and $$d_i$$ is the distance to it.
 
+![Spheres](/assets/images/GPS-Trilateration2.png)
+
 The geometric interpretation of this system is as follows. Message from one satellite allocates a part of which you are a sphere defined by its center-satellite and radius.
 
 Infomation from the second satellite is another sphere. Crossing of these two spheres, in general is a circle. A message from the third satellite adds another restriction is another sphere, and already defines your coordinates unambiguously. The fact that all three spheres have a common point, follows from the very compilation of the system. Of the two formal solutions (the intersection of the circle and the third sphere), one is improbable, and the other is your coordinates.
