@@ -71,7 +71,7 @@ while True:
     time.sleep(0.01)
 ```
 
-Tello drone has a built-in TOF sensor, the data of which can be used as a height coordinate, that is, z:
+Tello drone has a built-in TOF sensor, the data of which can be used as a height coordinate, that is, $$z$$:
 
 ```python
 pos_z = drone.get_distance_tof()
@@ -80,7 +80,17 @@ pos_z = drone.get_distance_tof()
 Thus, we received the coordinates of the drone in real time. Then we can run our code in a thread and visualize this data during the flight.
 
 
+<p align="center">
+    <iframe width="560" height="315"
+    src="https://www.youtube.com/embed/luXw3lQC7wI" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen></iframe>
+</p>
 
+### Project:
+
+[tivole/drone-trajectory-plotter](https://github.com/tivole/drone-trajectory-plotter)
 
 ### Authors:
 
